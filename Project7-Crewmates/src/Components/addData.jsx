@@ -26,8 +26,8 @@ const RunThis = () => {
     return (
         <div className="RunThis">
             <h1> This is Run This </h1>  
-            <input type="button" value="Change" onClick={createThis}/> 
-            <input type="button" value="CHANGE NEW" onClick={createNew}/>
+            <button onClick={createThis}> CHANGE 1 </button> 
+            <button onClick={createNew}> CHANGE 2 </button>
         </div>
     )
 }
