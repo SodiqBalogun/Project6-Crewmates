@@ -1,4 +1,4 @@
- import { supabase } from "./client.js";
+ import { supabase } from "../client.js";
 
 const RunThis = () => {
     const createThis = async (event) => {

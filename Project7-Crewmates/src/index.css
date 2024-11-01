@@ -21,12 +21,19 @@
   text-align: center;
 }
 
+.Welcome, .RunThis {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
 .sideNav {
   display: grid;
   margin: 0px;
   border: 3px solid green;
   background-color: grey;
   height: 1000px;
+  width: 210px;
   text-align: center;
 }
 
